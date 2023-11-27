@@ -1,0 +1,27 @@
+.UserLogin{
+  width: 50%;
+}
+form{
+    display: flex;
+}
+ input{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.input1{
+    margin-left: 15px;
+}
+.input2{
+    margin-left: 15px;
+}
+label{
+    font-weight: 600;
+}
+button{
+    margin-left: 10px;
+    width: 50px;
+}
+p{
+    display: none;
+    margin-top: 0px
+} 

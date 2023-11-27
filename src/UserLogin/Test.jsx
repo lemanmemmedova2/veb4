@@ -5,7 +5,6 @@ const Test = () => {
   const [alert1, setAlert1] = useState('');
   const [number, setNumber] = useState("")
   function email(e) {
-      console.log(e.target.parentElement.children[2])
       let a = e.target.value
       let b = a.split('.').reverse()[0]
       if (b === 'com' || b === 'az') {
